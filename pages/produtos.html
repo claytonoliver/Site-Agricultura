@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <script src="../JS/script.js"></script>
+    <script src="https://unpkg.com/scrollmagic@2.0.8/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script src="https://unpkg.com/scrollmagic@2.0.8/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+    <script src="https://unpkg.com/gsap@3.8.0/dist/gsap.js"></script>
+
+</head>
+<body>
+   
+    <section class="d-flex flex-row bd-highlight mb-3 align-items-center d-flex d-flex justify-content-evenly" id="cards">
+
+      <div class="card text-center" style="width: 18rem;">
+        <img src="../img/pexels-mark-stebnicki-2889442.jpg" class="card-img-top" alt="Tratores">
+        <div class="card-body d-flex flex-column bd-highlight mb-3 align-items-center">
+          <h5 class="card-title">Tratores</h5>
+          <p class="card-text">Soluçôes em de IA e visão computacional para tratores</p>
+          <a href="#" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card text-center" style="width: 18rem;">
+        <img src="../img/Drone_pulverizador.jpg" class="card-img-top" alt="Drone">
+        <div class="card-body d-flex flex-column bd-highlight mb-3 align-items-center">
+          <h5 class="card-title">Drones</h5>
+          <p class="card-text">Soluçôes em de IA e visão computacional para drones</p>
+          <a href="#" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card text-center" style="width: 18rem;">
+        <img src="../img/pexels-tom-fisk-1595108.jpg" class="card-img-top" alt="Colheitadeiras">
+        <div class="card-body d-flex flex-column bd-highlight mb-3 align-items-center">
+          <h5 class="card-title">Colheitadeiras</h5>
+          <p class="card-text ">Soluçôes em de IA e visão computacional para colheitadeiras</p>
+          <a href="#" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    
+<footer>
+    <div class="container text-center">
+        <div class="footer-content">
+            <p>&copy; <span id="current-year"></span> Clayton Oliveira Todos os direitos reservados.</p>
+            <p>Contato: <a href="mailto:claytonfra299@gmail.com">claytonfra299@gmail.com</a></p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('current-year').innerText = new Date().getFullYear();
+</script>
+</body>
+</html>

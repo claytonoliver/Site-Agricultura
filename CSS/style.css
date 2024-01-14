@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100px;
+}
+img{
+    width: 100px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    text-align: center;
+    width: 5vw;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #74BC34;
+}
+
+#video-container {
+    width: 100vw;
+    height: 100vh; 
+    overflow: hidden;
+    position: relative;
+}
+
+#video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+#texto-sobre-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    z-index: 1;
+}
+#cards{
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+#contato{
+    text-decoration: none;
+}
