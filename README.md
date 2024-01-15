@@ -22,7 +22,7 @@ Este site foi desenvolvido como parte de um projeto fictício para apresentar as
 
 ## Como Executar o Projeto
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+1. Clone este repositório: `git clone https://github.com/claytonoliver/Site-Agricultura`
 2. Abra o arquivo `index.html` no seu navegador.
 
 ## Contribuições
