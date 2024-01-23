@@ -9,7 +9,7 @@ Este site foi desenvolvido como parte de um projeto fictício para apresentar as
 ## Funcionalidades Principais
 
 - **Página Inicial**: Uma introdução à Green Tech Solutions, destacando suas principais áreas de especialização.
-- **Serviços**: Serviços oferecidos inteligência artificial e visão computacional para drones, colheitadeiras e tratores.
+- **Serviços**: inteligência artificial e visão computacional para drones, colheitadeiras e tratores.
 
 ## Tecnologias Utilizadas
 
